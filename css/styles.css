@@ -1,0 +1,261 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+/* Top bar */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo .certiport {
+  font-weight: bold;
+  color: #0077a3;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.logo .subtitle {
+  display: block;
+  font-size: 11px;
+  color: #777;
+}
+
+.top-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  position: fixed;
+  top: 64px;          /* altura real del header */
+  bottom: 48px;       /* altura real del footer */
+  left: 0;
+  right: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  overflow-y: auto;
+  padding: 40px 20px;
+  background-color: #f4f6f8;
+}
+
+
+.login-box {
+  background: white;
+  width: 520px;
+  padding: 40px;
+  border-radius: 3px;
+}
+
+.office {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.required {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #0077a3;
+  color: white;
+  border: none;
+  padding: 8px 22px;
+  cursor: pointer;
+  float: right;
+}
+
+button:hover {
+  background: #005f82;
+}
+
+.or {
+  margin-top: 50px;
+  font-size: 14px;
+}
+
+.certiport-login {
+  margin-top: 10px;
+}
+
+.c-icon {
+  width: 48px;
+  height: 48px;
+  background: #2b6cff;
+  color: white;
+  font-size: 28px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+}
+
+.links {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.links a {
+  color: #0077a3;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+
+  background: #0077a3;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 20px;
+  font-size: 12px;
+  z-index: 1000;
+}
+
+/* Lado izquierdo */
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-left span {
+  font-size: 30px;
+  cursor: default;
+}
+
+/* Lado derecho */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 1.2;
+}
+
+.footer-right p {
+  margin: 0;
+  font-size: 11px;
+  white-space: nowrap;
+}
+
+.footer-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.close {
+  color: white;
+  font-size: 11px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 10px 16px;
+  }
+
+  .logo .certiport {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 30px 16px;
+  }
+
+  .login-box {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .container {
+    padding: 20px 12px;
+  }
+
+  .login-box {
+    padding: 20px;
+  }
+
+  .login-box h1 {
+    font-size: 20px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}

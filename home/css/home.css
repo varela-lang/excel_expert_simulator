@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+/* HEADER */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  z-index: 1000;
+}
+
+.certiport {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007fa3;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #666;
+  display: block;
+}
+
+.user-info {
+  font-size: 14px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 60px;
+  bottom: 60px;
+  left: 0;
+  width: 220px;
+  background: #fff;
+  border-right: 1px solid #ccc;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #555;
+}
+
+.sidebar li.active {
+  background: #007fa3;
+  color: white;
+}
+
+/* CONTENT */
+/* CONTENT AREA */
+.content {
+  margin-left: 220px;
+  padding: 80px 20px 80px;
+  background: #f2f2f2;
+  min-height: 100vh;
+}
+
+/* PANEL CENTRAL */
+.panel {
+  background: #ffffff;
+  max-width: 980px;          /* Compass NO es full width */
+  margin: 0 auto;
+  padding: 25px 30px;
+  border: 1px solid #dcdcdc;
+}
+
+/* HEADER DEL PANEL */
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.panel-header h1 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+/* BOTÓN */
+.panel-header button {
+  background: #007fa3;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 13px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* SECCIONES */
+.section h3 {
+  font-size: 15px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.section p,
+.section a {
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.section a {
+  color: #007fa3;
+  text-decoration: none;
+}
+
+.section a:hover {
+  text-decoration: underline;
+}
+
+/* LÍNEAS */
+hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  margin: 18px 0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #007fa3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.footer-links a,
+.close {
+  color: white;
+  text-decoration: underline;
+  font-size: 11px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .content {
+    margin-left: 0;
+    padding: 80px 10px;
+  }
+
+  .panel {
+    padding: 20px;
+  }
+
+  .panel-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

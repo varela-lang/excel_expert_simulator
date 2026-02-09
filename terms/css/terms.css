@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  z-index: 1000;
+}
+
+.certiport {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007fa3;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #666;
+  display: block;
+}
+
+/* MAIN */
+.main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.nda-card {
+  background: #fff;
+  width: 100%;
+  max-width: 1100px;
+  padding: 24px;
+  border: 1px solid #ddd;
+}
+
+.nda-card h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+/* NDA BOX */
+.nda-box {
+  border: 1px solid #aaa;
+  padding: 16px;
+  max-height: 280px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+}
+
+.nda-box h4 {
+  margin-top: 16px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.nda-box ul {
+  padding-left: 18px;
+  margin-bottom: 12px;
+}
+
+.nda-box li {
+  font-size: 13px;
+  margin-bottom: 6px;
+}
+
+.nda-meta {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+
+/* OPTIONS */
+.accept-text {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.options label {
+  font-size: 14px;
+}
+
+/* ACTIONS */
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn.primary {
+  background-color: #6fa3c8;
+  color: white;
+}
+
+.btn.primary:disabled {
+  background-color: #b5cfe3;
+  cursor: not-allowed;
+}
+
+.btn.secondary {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+.footer {
+  background: #007a99;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 12px;
+}
+
+.footer-links {
+  margin-top: 6px;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 6px;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .nda-card {
+    padding: 16px;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

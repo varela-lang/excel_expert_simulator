@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+/* HEADER */
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  z-index: 1000;
+}
+
+.certiport {
+  font-size: 22px;
+  font-weight: bold;
+  color: #007fa3;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #666;
+  display: block;
+}
+
+/* CONTENT */
+.content {
+  padding: 100px 20px 100px;
+}
+
+.panel {
+  background: white;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+}
+
+.panel h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tab.active {
+  border-bottom: 3px solid #007fa3;
+  font-weight: bold;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.filters select,
+.filters input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  flex: 1;
+}
+
+/* EXAM CARD */
+.exam-card {
+  border: 1px solid #ddd;
+  margin-bottom: 26px;
+}
+
+.exam-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.exam-header img {
+  width: 250px;
+}
+
+.exam-list {
+  padding: 10px 15px;
+}
+
+.exam-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.exam-row:last-child {
+  border-bottom: none;
+}
+
+.exam-row span {
+  font-size: 14px;
+}
+
+/* BUTTON */
+.selectExam {
+  background: #007fa3;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  font-size: 13px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: #007fa3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  font-size: 12px;
+}
+
+.footer-links a,
+.close {
+  color: white;
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+
+  .exam-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}

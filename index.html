@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Compass – Login</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Top bar -->
+  <header class="top-bar">
+    <div class="logo">
+      <span class="certiport">¡Supérate!</span>
+      <span class="subtitle">A Pearson VUE Business</span>
+    </div>
+
+    <div class="top-actions">
+      <span class="icon">🔊</span>
+      <select>
+        <option>English</option>
+        <option>Español</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Main container -->
+  <main class="container">
+    <div class="login-box">
+      <p class="office">Oficina Institucional (90096814)</p>
+
+      <h1>Welcome</h1>
+      <p class="description">Log in to take your exam</p>
+      <p class="required">(* indicates a required field)</p>
+
+      <form id="loginForm">
+        <label>Username *</label>
+        <input type="text" id="username" required>
+
+        <label>Password *</label>
+        <input type="password" id="password" required>
+
+        <p id="error-message" style="color:red; display:none;">
+          Invalid username or password.
+        </p>
+
+
+        <button type="submit">Login</button>
+      </form>
+
+      <p class="or">Or login with</p>
+
+      <div class="certiport-login">
+        <div class="c-icon">C</div>
+      </div>
+
+      <div class="links">
+        <a href="#">Forgot your username or password?</a> |
+        <a href="#">I Cannot Access My Account</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-left">
+      <span>👤</span>
+      <span>🖥</span>
+      <span>📶</span>
+    </div>
+
+    <div class="footer-right">
+      <p>
+        Copyright © 2026 Sergio Varela.
+        All rights reserved.
+      </p>
+      <div class="footer-links">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Contact</a>
+      </div>
+      <a class="close" href="#">Close Window</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
