@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Microsoft Office Specialist – Exam</title>
+  <link rel="stylesheet" href="css/exam.css">
+</head>
+<body>
+
+<main class="workspace">
+  <!-- Excel se abre aparte -->
+</main>
+
+<footer class="exam-footer">
+
+  <!-- Progreso de preguntas -->
+   <div class="question-header">
+      <span id="examTitle"></span>
+      <span id="timer">50:00</span>
+      <span class="header-spacer"></span>
+      <div id="nextProjectContainer"></div>
+    </div>
+ 
+
+  <!-- Panel de la pregunta -->
+  <div class="question-panel">
+    <div class="progress-bar" id="progressBar"></div>
+
+    <div class="question-body">
+      <p id="questionText"></p>
+    </div>
+  </div>
+
+</footer>
+
+
+
+<script src="js/exam.js" defer></script>
+</body>
+</html>

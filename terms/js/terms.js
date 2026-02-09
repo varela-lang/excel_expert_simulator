@@ -10,6 +10,16 @@ radios.forEach(radio => {
 
 /* Acción del botón */
 nextBtn.addEventListener("click", () => {
-  window.location.href = "../tutorial/tutorial.html";
-});
+  const keys = ["key1"];
 
+  // Elegir clave al azar 🎲
+  const randomKey = keys[Math.floor(Math.random() * keys.length)];
+
+  // Inicializar flujo del examen
+  localStorage.setItem("selectedKey", randomKey);
+  localStorage.setItem("currentProject", 0);
+  localStorage.setItem("currentQuestion", 0);
+
+  // Ir directo al examen (sin escalas)
+  window.location.href = "../exam/exam.html";
+});
