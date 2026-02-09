@@ -1,0 +1,185 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #f5f6f7;
+}
+
+/* ZONA DE TRABAJO (Excel) */
+.workspace {
+  flex: 1;
+  background: #f5f6f7;
+}
+
+/* =========================
+   FOOTER EXAMEN (MOS STYLE)
+   ========================= */
+.exam-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: #0b2c5f;
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* =========================
+   BARRA DE PROGRESO
+   ========================= */
+.progress-bar {
+  display: flex;
+  justify-content: center;   /* 🔥 CENTRADO */
+  gap: 6px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.progress-bar span:hover {
+  border: 2px solid #1e3a8a;
+  color: #000000;
+  background: #eef2ff;
+}
+
+.progress-bar span {
+  width: 60px;
+  height: 20px;
+  background: #1e3a8a;
+  color: #ffffff;
+  font-size: 11px;
+  text-align: center;
+  align-content: center;
+  line-height: 18px;
+  border-radius: 5px;
+}
+
+.progress-bar span.active {
+  border: 2px solid #1e3a8a;
+  background: #ffffff;
+  color: #0b2c5f;
+  font-weight: bold;
+}
+
+.progress-bar span.done {
+  background: #2563eb;
+}
+
+/* =========================
+   PANEL DE PREGUNTA
+   ========================= */
+.question-panel {
+  padding-top: 1%;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+/* HEADER DEL PANEL */
+.question-header {
+  background: #0b2c5f;
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  padding:5px 8px ;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#examTitle {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  grid-column: 2;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 70%;
+
+}
+
+
+/* TEMPORIZADOR */
+#timer {
+  justify-self: start;
+  background: #0b2c5f;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  padding: 2px 6px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  align-items: center;
+  gap: 4px;
+  display: flex;
+  z-index: 2;
+}
+
+.header-spacer {
+  grid-column: 3;
+}
+
+
+/* CUERPO DE LA PREGUNTA */
+.question-body {
+  padding: 12px 150px;   /* ⬅ más espacio lateral */
+  font-size: 16px;
+  line-height: 1.5;
+  color: #1f2937;
+  max-height: 90px;
+  overflow-y: auto;
+}
+
+
+.next-project-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.next-project-btn:hover {
+  background-color: #45a049;
+}
+
+
+/* =========================
+   BOTÓN NEXT
+   ========================= */
+.footer-right {
+  align-self: flex-end;
+  margin-top: 4px;
+}
+
+.exam-footer button {
+  background: #ffffff;
+  color: #0b2c5f;
+  border: 1px solid #94a3b8;
+  padding: 4px 10px;
+  border-radius: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.exam-footer button:hover {
+  background: #e5e7eb;
+}

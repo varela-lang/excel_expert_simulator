@@ -1,0 +1,10 @@
+{
+  "projectName": "Adventure Works Cycles",
+  "questions": [
+    { "text": "You are tracking inventory and work orders for Adventure Works Cycles. Configure Excel to save an AutoRecover version of each open file every '6' minutes", "file": "Adventure Works Cycles.xlsx" },
+    { "text": "All the cells on the 'Work Sites' worksheet are unlocked. On the worksheet, lock only cells F4:F10. Ensure that users can select and format cells after protecting the worksheet. Protect the worksheet using the password '123'", "file": "Adventure Works Cycles.xlsx" },
+    {"text": "On the 'Sales Projections' worksheet, in the cells C8:G8, use the fill series feature to project a growth of 12 percent per year for the 'London' office", "file":"Adventure Works Cycles.xlsx"}, {"text":"On the 'Loyalty' worksheet, in the cell C4, enter a formula that uses the 'RANDARRAY' function to randomly determine the gift card amount each customer will receive for each quarter. Note: You can use arithmetic operations or additional functions as part of the formula","file":"Adventure Works Cycles.xlsx"},
+    {"text":"On the 'Orders' worksheet, in cell G3, revise the formula to display the total 'Quantity' of parts that have a 'Due Date' before today. Do not include today's date.","file":"Adventure Works Cycles.xlsx"},
+    {"text":"On the 'Locations' worksheet, create a chart that displays the 'Units in Production' at each location as a Clustered Column and the 'Maximum Units' at each location as a Line with Markers on the same chart. Display the 'Location' cities as the horizontal axis labels","file":"Adventure Works Cycles.xlsx"} 
+  ]
+}
