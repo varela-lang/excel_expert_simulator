@@ -1,26 +1,20 @@
 [
   {"username": "sergiov","password": "123"},
+  {"username": "ipineda", "password": "4578"},
   { "username": "roxana.alvarenga2026", "password": "4821" },
-  { "username": "aura.carrillo2026", "password": "7394" },
   { "username": "victoria.fernandez2026", "password": "6158" },
   { "username": "damaris.flores2026", "password": "9043" },
   { "username": "andrea.garcia2026", "password": "2716" },
-  { "username": "bernabe.guevara2026", "password": "5582" },
   { "username": "adriana.henriquez2026", "password": "3469" },
   { "username": "fatima.hernandez2026", "password": "8015" },
   { "username": "hernan.hernandez2026", "password": "6924" },
   { "username": "camila.herrera2026", "password": "1748" },
-  { "username": "maria.lopez2026", "password": "9306" },
   { "username": "emerson.marroquin2026", "password": "4870" },
   { "username": "cesia.mejia2026", "password": "2519" },
-  { "username": "ashly.mejia2026", "password": "7642" },
   { "username": "chris.montiel2026", "password": "3895" },
   { "username": "kevin.navarrete2026", "password": "9061" },
-  { "username": "jose.orellana2026", "password": "5428" },
   { "username": "linsay.orellana2026", "password": "1187" },
   { "username": "camila.osorio2026", "password": "6704" },
-  { "username": "fatima.palacios2026", "password": "8351" },
-  { "username": "denis.paz2026", "password": "2946" },
   { "username": "katherine.perez2026", "password": "7810" },
   { "username": "monica.ramirez2026", "password": "4593" },
   { "username": "oscar.ramirez2026", "password": "6037" },
@@ -31,5 +25,4 @@
   { "username": "elida.rodriguez2026", "password": "7991" },
   { "username": "angel.trejo2026", "password": "4316" },
   { "username": "stefany.vasquez2026", "password": "9527" }
-
 ]
