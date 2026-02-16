@@ -1,13 +1,13 @@
 const userData = localStorage.getItem("loggedUser");
 
 if (!userData) {
-  window.location.href = "../login/index.html";
+  window.location.href = "../../index.html";
 }
 
 const user = JSON.parse(userData);
 document.getElementById("usernameDisplay").textContent = user.username;
 
-document.querySelectorAll(".selectExam").forEach(btn => {
+document.querySelectorAll("#exam").forEach(btn => {
   btn.addEventListener("click", () => {
     window.location.href = "../terms/terms.html";
   });

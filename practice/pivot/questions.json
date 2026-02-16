@@ -1,0 +1,8 @@
+{
+  "projectName": "PivotTable",
+  "questions": [
+    { "text": "Create a PivotTable using the data on the Sales worksheet, Show total Revenue by Region, Place Region in Rows and Revenue in Values.", "file": "medium_pivot_tables.xlsx" },
+    {"text": "Modify the PivotTable to display the average Revenue per Product.", "file":"medium_pivot_tables.xlsx"},
+    {"text":"Filter the PivotTable to show only data for January.", "file":"medium_pivot_tables.xlsx"}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "projectName": "Functions",
+  "questions": [
+    { "text": "In a new cell, enter a formula to calculate the maximum Value for Category A.", "file": "medium_functions.xlsx" },
+    {"text": "Enter a formula to calculate the total Value for Category B.", "file":"medium_functions.xlsx"},
+    {"text":"Calculate the average Value across all categories, excluding blank cells.", "file":"medium_functions.xlsx"}
+  ]
+}

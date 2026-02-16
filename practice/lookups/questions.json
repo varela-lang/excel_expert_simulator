@@ -1,0 +1,8 @@
+{
+  "projectName": "LookUps",
+  "questions": [
+    { "text": "On the Orders worksheet, enter a formula that returns the Customer Name based on the CustomerID by matching it with the Customers worksheet.", "file": "medium_lookups.xlsx" },
+    {"text": "Extend the formula to also return the Region of each customer.", "file":"medium_lookups.xlsx"},
+    {"text":"Ensure the formula returns a blank cell if no match is found.", "file":"medium_lookups.xlsxs"}
+  ]
+}

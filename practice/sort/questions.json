@@ -1,0 +1,12 @@
+{
+  "projectName": "Sort",
+  "questions": [
+    { "text": "Sort the data by Sales from largest to smallest.", "file": "medium_sort.xlsx" },
+    {
+        "text":"Apply a second sort level:Sort by Rating from highest to lowest.","file":"medium_sort.xlsx"
+    },
+    {
+        "text":"Use a formula to display the data sorted by Sales in descending order.","file":"medium_sort.xlsx"
+    }
+  ]
+}
