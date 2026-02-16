@@ -1,0 +1,8 @@
+{
+  "projectName": "Pivot Charts",
+  "questions": [
+    { "text": "Create a PivotTable from the Production worksheet showing:Total Units by Plant.", "file": "medium_pivot_charts.xlsx" },
+    {"text": "Insert a Clustered Column PivotChart based on the PivotTable.", "file":"medium_pivot_charts.xlsx"},
+    {"text":"Change the chart title to “Units by Plant” and hide field buttons.", "file":"medium_pivot_charts.xlsx"}
+  ]
+}

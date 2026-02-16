@@ -12,7 +12,7 @@
     <!-- HEADER -->
     <header class="top-bar">
         <div class="logo">
-            <span class="certiport">CERTIPORT</span>
+            <span class="certiport">¡Supérate!</span>
             <span class="subtitle">A Pearson VUE Business</span>
         </div>
 
@@ -24,50 +24,21 @@
     <!-- SIDEBAR -->
     <aside class="sidebar">
         <ul>
-            <li class="active">Home</li>
-            <li>Manage Exams</li>
-            <li>Inventory</li>
-            <li>Updates</li>
-            <li>Import / Export</li>
-            <li>Settings</li>
-            <li>System Check</li>
-            <li>About Compass</li>
+            <li class="active" data-section="simulator">Simulator</li>
+            <li data-section="pivot">Pivot Tables</li>
+            <li data-section="lookups">Lookups</li>
+            <li data-section="conditional">Conditional Formating </li>
+            <li data-section="charts">Charts</li>
+            <li data-section="functions">Funtions</li>
+            <li data-section="whatif">What-If-analysis</li>
+            <li data-section="sort">Custom Sort</li>
         </ul>
     </aside>
 
     <!-- MAIN CONTENT -->
     <main class="content">
         <div class="panel">
-
-            <div class="panel-header">
-                <h1>Home</h1>
-                <button id="launchExam">Launch an Exam</button>
-            </div>
-
-            <hr>
-
-            <section class="section">
-                <h3>Exam Updates/System Updates</h3>
-                <p>No available updates</p>
-            </section>
-
-            <hr>
-
-            <section class="section">
-                <h3>Updates Mode</h3>
-                <p>Current Mode: <strong>Automatic</strong></p>
-                <p>Last Update 2026-02-05 16:13:20</p>
-                <p>Next Update 2026-02-06 08:47:00</p>
-                <a href="#">Change Update service scheduler settings</a>
-            </section>
-
-            <hr>
-
-            <section class="section">
-                <h3>Office Compatibility</h3>
-                <a href="#">Office Compatibility ⚠</a>
-            </section>
-
+            <div id="dynamicContent"></div>
         </div>
     </main>
 
@@ -77,7 +48,7 @@
         <div class="footer-left">
             <span>👤</span>
             <span>🖥</span>
-            <span>📶</span>
+            <span>📶</span> 
         </div>
 
         <div class="footer-center">

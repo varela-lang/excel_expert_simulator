@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("currentQuestion", 0);
 
     if (currentProject >= 5) {
-      alert("Examen finalizado. Buen trabajo 🧠📊");
+      alert("Examen finalizado. Buen trabajo");
       localStorage.clear();
       return;
     }
@@ -143,7 +143,7 @@ function startTimer(seconds) {
 
     if (time <= 0) {
       clearInterval(timerInterval);
-      alert("⏰ Tiempo agotado");
+      alert("Tiempo agotado");
       localStorage.clear();
       location.reload();
     }

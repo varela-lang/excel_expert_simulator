@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -148,73 +148,32 @@ button:hover {
   text-decoration: none;
 }
 
-/* Footer */
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
-  height: 48px;
-
-  background: #0077a3;
+  right: 0;
+  height: 60px;
+  background: #007fa3;
   color: white;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 0 20px;
+  padding: 20px;
   font-size: 12px;
-  z-index: 1000;
 }
 
-/* Lado izquierdo */
-.footer-left {
-  display: flex;
-  align-items: center;
-  gap: 14px;
+.footer-left{
+  font-size: 25px;
 }
 
-.footer-left span {
-  font-size: 30px;
-  cursor: default;
-}
-
-/* Lado derecho */
-.footer-right {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  line-height: 1.2;
-}
-
-.footer-right p {
-  margin: 0;
-  font-size: 11px;
-  white-space: nowrap;
-}
-
-.footer-links {
-  display: flex;
-  gap: 10px;
-}
-
-.footer-links a {
-  color: white;
-  text-decoration: none;
-  font-size: 11px;
-}
-
-.footer-links a:hover {
-  text-decoration: underline;
-}
-
+.footer-links a,
 .close {
   color: white;
-  font-size: 11px;
   text-decoration: underline;
-  cursor: pointer;
+  font-size: 11px;
 }
+
 
 @media (max-width: 768px) {
   .top-bar {

@@ -1,0 +1,6 @@
+{
+  "projectName": "What-If Analysis",
+  "questions": [
+    { "text": "Use Goal Seek to determine the Price that results in a Profit of 40.", "file": "medium_what_if.xlsx" }
+  ]
+}

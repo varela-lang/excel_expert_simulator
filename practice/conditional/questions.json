@@ -1,0 +1,8 @@
+{
+  "projectName": "Conditional Formating",
+  "questions": [
+    { "text": "Apply conditional formatting to the Score column to: Display values below 60 in red font.", "file": "medium_conditional_formatting.xlsx" },
+    {"text": "Add another rule to:Highlight scores above the average of all scores using a fill color.", "file":"medium_conditional_formatting.xlsx"},
+    {"text":"Modify an existing rule instead of creating a new one to Display values below 60 in blue font.", "file":"medium_conditional_formatting.xlsx"}
+  ]
+}
