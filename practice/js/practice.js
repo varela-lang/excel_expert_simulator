@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // =========================
   // RUTAS DINÁMICAS
   // =========================
-  const basePath = `/${category}`;
+  const basePath = `./${category}`;
   const questionsPath = `${basePath}/questions.json`;
   const filesPath = `${basePath}/files/`;
 
