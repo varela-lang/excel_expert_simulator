@@ -3,27 +3,27 @@
   "questions": [
     {
       "text": "You are creating a workbook to track order data for Wide World Importers. On the 'Orders' worksheet, in the 'Discount' column, modify the conditional formatting rule applied to the largest discounts. Change the font style to Bold and the font color to Green, Accent 6, Darker 25% (from the Theme Colors palette) Note: Do not create any new conditional formatting rules or remove any existing rules.",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     },
     {
       "text": "On the 'Inventory' worksheet, in cell H3, enter a formula that returns the total quantity of 'In Stock' products that are marked 'Yes' in the 'Discountinued' column",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     },
     {
       "text": "On the 'Orders' worksheet, in the 'Region' column, enter a formula that displays the 'Region' of each order's customer by matching the 'Customer ID' value with the 'ID' value on the 'Customers' worksheet",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     },
     {
       "text": "On the 'Products' worksheet, in cell D4, enter a formula that will display the data from A4:B80 sorted by the 'Unit Price' in descending order",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     },
     {
       "text": "On the 'Customer Contacts' worksheet, insert a slicer that allows users to filter the PivotTable data by 'Region'. Use the slicer to display only data from customers in 'Switzerland'.",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     },
     {
       "text": "On the 'Order 'Analysis' worksheet, configure the PivotChart to show only Report Filter Field Buttons.",
-      "file": "Wide World Importers.xlsx"
+      "file": "Wide World Importers1.xlsx"
     }
   ]
 }

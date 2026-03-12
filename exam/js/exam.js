@@ -19,7 +19,8 @@ document.addEventListener("DOMContentLoaded", () => {
       downloadExcelOnce(data);
       renderProgress(data);
 
-      startTimer(50 * 60); // 50 minutos
+      startTimer();
+
     })
     .catch(err => console.error("Error loading project:", err));
 
@@ -138,15 +139,24 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 /* =========================
-   TEMPORIZADOR
+   TEMPORIZADOR GLOBAL
    ========================= */
+
 let timerInterval;
 
-function startTimer(seconds) {
-
-  let time = seconds;
+function startTimer() {
 
   const timerEl = document.getElementById("timer");
+
+  let time = localStorage.getItem("examTime");
+
+  // Si no existe, iniciar en 50 minutos
+  if (!time) {
+    time = 50 * 60;
+    localStorage.setItem("examTime", time);
+  } else {
+    time = Number(time);
+  }
 
   timerInterval = setInterval(() => {
 
@@ -168,6 +178,8 @@ function startTimer(seconds) {
 
     time--;
 
+    localStorage.setItem("examTime", time);
+
   }, 1000);
 }
 
@@ -176,6 +188,8 @@ function startTimer(seconds) {
    ========================= */
 
 window.addEventListener("beforeunload", () => {
+
+  if (!document.hidden) return;
 
   localStorage.clear();
 
