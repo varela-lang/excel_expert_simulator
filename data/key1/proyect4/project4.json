@@ -1,8 +1,21 @@
 {
   "projectName": "Auction",
   "questions": [
-    { "text": "You are creating a workbook to track customer information. There are several customers who have multiple entries for their contact information. On the 'Customers' worksheet, keep only the latest entry for each customer and remove all other duplicate rows based on the customer 'ID'", "file": "Auction.xlsx" },
-    { "text": "On the 'Pricing' worksheet, use Goal Seek to determine the change in cell D4 that would result in a 'Profit' of '$500' in cell F4", "file": "Auction.xlsx" },
-    {"text": "On the 'Auction' worksheet, create a Histogram chart that shows the 'Bid' values in bins with widths of '1000'. Show the Overflow bin for values over '2500'. Format the bin range numbers to display to '0' decimal places. Keep all other default settings.", "file":"Auction.xlsx"}, {"text":"On the 'Auction Analysis' worksheet, modify the PivotTable to group the data in intervals of 5 Days. Accept the default start and end dates.","file":"Auction.xlsx"}
+    {
+      "text": "You are creating a workbook to track customer information. There are several customers who have multiple entries for their contact information. On the 'Customers' worksheet, keep only the latest entry for each customer and remove all other duplicate rows based on the customer 'ID'",
+      "file": "Auction.xlsx"
+    },
+    {
+      "text": "On the 'Pricing' worksheet, use Goal Seek to determine the change in cell D4 that would result in a 'Profit' of '$700' in cell F4",
+      "file": "Auction.xlsx"
+    },
+    {
+      "text": "On the 'Auction' worksheet, create a Histogram chart that shows the 'Bid' values in bins with widths of '1000'. Show the Overflow bin for values over '2500'. Format the bin range numbers to display to '0' decimal places. Keep all other default settings.",
+      "file": "Auction.xlsx"
+    },
+    {
+      "text": "On the 'Auction Analysis' worksheet, modify the PivotTable to group the data in intervals of 5 Days. Accept the default start and end dates.",
+      "file": "Auction.xlsx"
+    }
   ]
 }

@@ -1,9 +1,25 @@
 {
   "projectName": "A. Datum Corporation",
   "questions": [
-    { "text": "You are preparing data for a monthly management meeting. Require that users enter the password '123' before they can add, delete, move, rename, or hide worksheets in the current workbook", "file": "Datum Corporation.xlsx" },
-    { "text": "On the 'Suppliers' worksheet, in the 'Supplier ID' column, apply a custom number format to automatically display eache ID with '#' symbol followed by five digits. The existing number should be padded with zeroes to create the five digits. For example, '123' will be desplayed as '#00123'", "file": "Datum Corporation.xlsx" },
-    {"text": "On the 'Orders' worksheet, in the 'Order Total' column, create a conditional formatting rule that uses the Icon Sets format style to display a Pink Circle when the value is greater than or equal to '1000', a Yellow Cicle when the value is less than 1000 and greater than or equal to '200', and a Grey Cicle when the value is less than 200", "file":"Bellows College.xlsx"}, {"text":"On the 'Orders' worksheet, in cell J5, enter a formula to return the single largest 'Order Total' based on the 'Supplier' and the 'Material' displayed in cells J3 and J4","file":"Datum Corporation.xlsx"},
-    {"text":"On the 'Purchase Summary' worksheet, configure the PivoTable to display a blank line below the last 'Supplier' in each 'Material' section","file":"Datum Corporation.xlsx"}
+    {
+      "text": "You are preparing data for a monthly management meeting. Require that users enter the password '1235' before they can add, delete, move, rename, or hide worksheets in the current workbook",
+      "file": "Datum Corporation.xlsx"
+    },
+    {
+      "text": "On the 'Suppliers' worksheet, in the 'Supplier ID' column, apply a custom number format to automatically display eache ID with '#' symbol followed by five digits. The existing number should be padded with zeroes to create the five digits. For example, '123' will be desplayed as '#00123'",
+      "file": "Datum Corporation.xlsx"
+    },
+    {
+      "text": "On the 'Orders' worksheet, in the 'Order Total' column, create a conditional formatting rule that uses the Icon Sets format style to display a Pink Circle when the value is greater than or equal to '1000', a Yellow Cicle when the value is less than 1000 and greater than or equal to '200', and a Grey Cicle when the value is less than 200",
+      "file": "Bellows College.xlsx"
+    },
+    {
+      "text": "On the 'Orders' worksheet, in cell J5, enter a formula to return the single largest 'Order Total' based on the 'Supplier' and the 'Material' displayed in cells J3 and J4",
+      "file": "Datum Corporation.xlsx"
+    },
+    {
+      "text": "On the 'Purchase Summary' worksheet, configure the PivoTable to display a blank line below the last 'Supplier' in each 'Material' section",
+      "file": "Datum Corporation.xlsx"
+    }
   ]
 }

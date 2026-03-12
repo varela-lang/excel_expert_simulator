@@ -1,8 +1,21 @@
 {
   "projectName": "Bellows College",
   "questions": [
-    { "text": "You are preparing for a meeting with school leaders regarding students performance in a class. On the 'Results' worksheet, use an Excel feature to group all the table rows that have a value of 'A' in the 'Section' column", "file": "Bellows College.xlsm" },
-    { "text": "On the 'Results' worksheet, in the 'Exam Results' table, create a conditional formatting rule. use a formula to format the 'Name' column in Red text color(from the Standard Colors palette) if the average of the four exam results is less than 60", "file": "Bellows College.xlsm" },
-    {"text": "In the 'Report' macro, update the 'PrintGridlines' properties so that the macro automatically prints the rows 1:3 as title rows and does not print the gridlines", "file":"Bellows College.xlsm"}, {"text":"On the 'Summary' worksheet, in cell A4, create a PivoTable using the data in the 'Exam Results' table of the 'Results' worksheet","file":"Bellows College.xlsm"}
+    {
+      "text": "You are preparing for a meeting with school leaders regarding students performance in a class. On the 'Results' worksheet, use an Excel feature to group all the table rows that have a value of 'B' in the 'Section' column",
+      "file": "Bellows College.xlsm"
+    },
+    {
+      "text": "On the 'Results' worksheet, in the 'Exam Results' table, create a conditional formatting rule. use a formula to format the 'Name' column in Green text color(from the Standard Colors palette) if the average of the four exam results is greather or equal to 60",
+      "file": "Bellows College.xlsm"
+    },
+    {
+      "text": "In the 'Report' macro, update the 'PrintGridlines' properties so that the macro automatically prints the rows 1:3 as title rows and does not print the gridlines",
+      "file": "Bellows College.xlsm"
+    },
+    {
+      "text": "On the 'Summary' worksheet, in cell A4, create a PivoTable using the data in the 'Exam Results' table of the 'Results' worksheet",
+      "file": "Bellows College.xlsm"
+    }
   ]
 }
